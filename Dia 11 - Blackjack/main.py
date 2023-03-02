@@ -26,7 +26,7 @@ def compare(user_score, computer_score):
   if user_score == computer_score:
     return "Empatou 🙃"
   elif computer_score == 0:
-    return "Perde, o adversário tem Blackjack 😱"
+    return "Perdeu, o adversário tem Blackjack 😱"
   elif user_score == 0:
     return "Ganhou com um Blackjack 😎"
   elif user_score > 21:
